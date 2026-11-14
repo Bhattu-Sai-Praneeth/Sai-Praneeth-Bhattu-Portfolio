@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-14T21:18:46.416Z",
+  "updated": "2026-11-14T21:45:43.803Z",
   "posts": [
+    {
+      "title": "Database Design Fundamentals: Data Modeling, SQL vs. NoSQL, and Indexing",
+      "brief": "Database design fundamentals, including data modeling, SQL vs. NoSQL, Amazon S3 object storage, and database indexing for scalable applications.",
+      "url": "https://saipraneethbhattu.hashnode.dev/database-design-fundamentals-data-modeling-sql-vs-nosql-and-indexing",
+      "publishedAt": "2026-11-14T21:44:44.000Z",
+      "readTimeInMinutes": null
+    },
     {
       "title": "Package Managers in Linux: RPM, Yum, DPKG and APT Explained",
       "brief": "Learn how Linux package managers work, from RPM and Yum to DPKG and APT, with practical commands, repositories, dependency handling and apt vs apt-get.",
@@ -34,13 +41,6 @@
       "brief": "Ansible architecture, inventory, modules, playbooks, SSH automation, and ad hoc commands with practical DevOps examples.",
       "url": "https://saipraneethbhattu.hashnode.dev/you-have-400-servers-to-configure-now-what-let-ansible-do-the-work",
       "publishedAt": "2026-06-18T09:42:22.000Z",
-      "readTimeInMinutes": null
-    },
-    {
-      "title": "Building Production-Ready Docker Deployments with Secrets, Stacks, and Distroless Images",
-      "brief": "Docker Secrets, Stack deployments, global services, Portainer, and distroless images for secure production-ready containers.",
-      "url": "https://saipraneethbhattu.hashnode.dev/building-production-ready-docker-deployments-with-secrets-stacks-and-distroless-images",
-      "publishedAt": "2026-06-17T20:45:25.000Z",
       "readTimeInMinutes": null
     }
   ]
