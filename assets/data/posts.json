@@ -1,1 +1,47 @@
-{ "updated": null, "posts": [] }
+{
+  "updated": "2026-11-14T21:08:19.270Z",
+  "posts": [
+    {
+      "title": "Package Managers in Linux: RPM, Yum, DPKG and APT Explained",
+      "brief": "Learn how Linux package managers work, from RPM and Yum to DPKG and APT, with practical commands, repositories, dependency handling and apt vs apt-get.",
+      "url": "https://saipraneethbhattu.hashnode.dev/package-managers-in-linux-rpm-yum-dpkg-and-apt-explained",
+      "publishedAt": "2026-10-23T19:31:59.000Z",
+      "readTimeInMinutes": null
+    },
+    {
+      "title": "Understanding the Linux Kernel, Boot Process and File System Hierarchy",
+      "brief": "Learn how the Linux kernel, boot process, systemd targets, file types and directory hierarchy work, with practical commands like lscpu, lsblk and…",
+      "url": "https://saipraneethbhattu.hashnode.dev/understanding-the-linux-kernel-boot-process-and-file-system-hierarchy",
+      "publishedAt": "2026-10-21T04:15:35.000Z",
+      "readTimeInMinutes": null
+    },
+    {
+      "title": "Stop Writing Repetitive Playbooks: Ansible Tags, Variables, Loops, Handlers and Conditions Decoded",
+      "brief": "Master advanced Ansible concepts: tags for selective execution, variables (static/dynamic), loops for bulk tasks",
+      "url": "https://saipraneethbhattu.hashnode.dev/stop-writing-repetitive-playbooks-ansible-tags-variables-loops-handlers-and-conditions-decoded",
+      "publishedAt": "2026-06-21T10:08:50.000Z",
+      "readTimeInMinutes": null
+    },
+    {
+      "title": "Ansible Playbooks Explained: From First YAML File to Managing Real Servers",
+      "brief": "Learn what an Ansible playbook is and how it works, from YAML basics to installing Apache, Docker, Git, and Nginx with real playbook examples.",
+      "url": "https://saipraneethbhattu.hashnode.dev/ansible-playbooks-explained-from-first-yaml-file-to-managing-real-servers",
+      "publishedAt": "2026-06-19T08:53:21.000Z",
+      "readTimeInMinutes": null
+    },
+    {
+      "title": "You Have 400 Servers to Configure. Now What? Let Ansible Do the Work.",
+      "brief": "Ansible architecture, inventory, modules, playbooks, SSH automation, and ad hoc commands with practical DevOps examples.",
+      "url": "https://saipraneethbhattu.hashnode.dev/you-have-400-servers-to-configure-now-what-let-ansible-do-the-work",
+      "publishedAt": "2026-06-18T09:42:22.000Z",
+      "readTimeInMinutes": null
+    },
+    {
+      "title": "Building Production-Ready Docker Deployments with Secrets, Stacks, and Distroless Images",
+      "brief": "Docker Secrets, Stack deployments, global services, Portainer, and distroless images for secure production-ready containers.",
+      "url": "https://saipraneethbhattu.hashnode.dev/building-production-ready-docker-deployments-with-secrets-stacks-and-distroless-images",
+      "publishedAt": "2026-06-17T20:45:25.000Z",
+      "readTimeInMinutes": null
+    }
+  ]
+}
