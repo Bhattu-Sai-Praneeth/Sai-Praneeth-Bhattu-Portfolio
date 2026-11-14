@@ -39,14 +39,12 @@
     }).slice(0, POST_COUNT);
   }
   function fromApi() {
+    // GET request: a "simple" CORS request, so the browser sends no preflight (which Hashnode redirects).
     var ctrl = window.AbortController ? new AbortController() : null;
     var timer = setTimeout(function () { if (ctrl) ctrl.abort(); }, 7000);
-    return fetch('https://gql.hashnode.com', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query: QUERY, variables: { host: BLOG_HOST, n: POST_COUNT } }),
-      signal: ctrl ? ctrl.signal : undefined
-    }).then(function (r) {
+    var url = 'https://gql.hashnode.com/?query=' + encodeURIComponent(QUERY) +
+              '&variables=' + encodeURIComponent(JSON.stringify({ host: BLOG_HOST, n: POST_COUNT }));
+    return fetch(url, { signal: ctrl ? ctrl.signal : undefined }).then(function (r) {
       clearTimeout(timer);
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
@@ -69,12 +67,12 @@
     if (cached && Date.now() - cached.t < CACHE_TTL && cached.posts.length) {
       postsPromise = Promise.resolve(clean(cached.posts));
     } else {
-      postsPromise = fromApi().then(function (posts) {
-        if (posts.length) writeCache(posts);
-        return posts;
-      }).catch(function () {
-        if (cached && cached.posts.length) return clean(cached.posts);          // stale cache
-        return fromStatic().catch(function () { return []; });                 // shipped fallback
+      postsPromise = fromStatic().catch(function () { return []; }).then(function (posts) {
+        if (posts.length) return posts;                                          // 1. posts.json (GitHub Action)
+        return fromApi().catch(function () { return []; });                     // 2. live API, best effort
+      }).then(function (posts) {
+        if (posts.length) { writeCache(posts); return posts; }
+        return cached && cached.posts.length ? clean(cached.posts) : [];        // 3. stale cache
       });
     }
     return postsPromise;
