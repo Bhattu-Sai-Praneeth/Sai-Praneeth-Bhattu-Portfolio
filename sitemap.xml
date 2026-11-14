@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://saipraneethbhattu.me/</loc>
     <priority>1.0</priority>
   </url>
-
   <url>
-    <loc>https://saipraneethbhattu.me/#about</loc>
+    <loc>https://saipraneethbhattu.me/about.html</loc>
   </url>
-
   <url>
-    <loc>https://saipraneethbhattu.me/#skills</loc>
+    <loc>https://saipraneethbhattu.me/experience.html</loc>
   </url>
-
   <url>
-    <loc>https://saipraneethbhattu.me/#projects</loc>
+    <loc>https://saipraneethbhattu.me/projects.html</loc>
   </url>
-
   <url>
-    <loc>https://saipraneethbhattu.me/#contact</loc>
+    <loc>https://saipraneethbhattu.me/skills.html</loc>
   </url>
-
+  <url>
+    <loc>https://saipraneethbhattu.me/contact.html</loc>
+  </url>
 </urlset>
