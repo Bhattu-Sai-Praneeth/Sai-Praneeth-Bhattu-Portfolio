@@ -2,7 +2,7 @@ name: Refresh blog posts
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * 0'
   workflow_dispatch:
 
 permissions:
@@ -15,11 +15,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 26
       - run: node scripts/fetch-posts.mjs
       - name: Commit if changed
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/data/posts.json
           git diff --cached --quiet || (git commit -m "chore: refresh blog posts" && git push)
