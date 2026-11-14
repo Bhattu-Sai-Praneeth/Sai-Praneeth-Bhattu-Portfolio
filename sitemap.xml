@@ -2,21 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://saipraneethbhattu.me/</loc>
+    <lastmod>2026-11-14</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://saipraneethbhattu.me/about.html</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://saipraneethbhattu.me/experience.html</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://saipraneethbhattu.me/projects.html</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://saipraneethbhattu.me/skills.html</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://saipraneethbhattu.me/contact.html</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
 </urlset>
