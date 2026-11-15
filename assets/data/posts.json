@@ -1,47 +1,101 @@
 {
-  "updated": "2026-11-15T13:15:28.872Z",
+  "updated": "2026-11-15T20:30:55.335Z",
   "posts": [
     {
       "title": "Database Design Fundamentals: Data Modeling, SQL vs. NoSQL, and Indexing",
       "brief": "Database design fundamentals, including data modeling, SQL vs. NoSQL, Amazon S3 object storage, and database indexing for scalable applications.",
       "url": "https://saipraneethbhattu.hashnode.dev/database-design-fundamentals-data-modeling-sql-vs-nosql-and-indexing",
       "publishedAt": "2026-11-14T21:44:44.000Z",
-      "readTimeInMinutes": null
+      "readTimeInMinutes": null,
+      "source": "hashnode"
     },
     {
       "title": "Package Managers in Linux: RPM, Yum, DPKG and APT Explained",
       "brief": "Learn how Linux package managers work, from RPM and Yum to DPKG and APT, with practical commands, repositories, dependency handling and apt vs apt-get.",
       "url": "https://saipraneethbhattu.hashnode.dev/package-managers-in-linux-rpm-yum-dpkg-and-apt-explained",
       "publishedAt": "2026-10-23T19:31:59.000Z",
-      "readTimeInMinutes": null
+      "readTimeInMinutes": null,
+      "source": "hashnode"
     },
     {
       "title": "Understanding the Linux Kernel, Boot Process and File System Hierarchy",
       "brief": "Learn how the Linux kernel, boot process, systemd targets, file types and directory hierarchy work, with practical commands like lscpu, lsblk and…",
       "url": "https://saipraneethbhattu.hashnode.dev/understanding-the-linux-kernel-boot-process-and-file-system-hierarchy",
       "publishedAt": "2026-10-21T04:15:35.000Z",
-      "readTimeInMinutes": null
+      "readTimeInMinutes": null,
+      "source": "hashnode"
     },
     {
       "title": "Stop Writing Repetitive Playbooks: Ansible Tags, Variables, Loops, Handlers and Conditions Decoded",
       "brief": "Master advanced Ansible concepts: tags for selective execution, variables (static/dynamic), loops for bulk tasks",
       "url": "https://saipraneethbhattu.hashnode.dev/stop-writing-repetitive-playbooks-ansible-tags-variables-loops-handlers-and-conditions-decoded",
       "publishedAt": "2026-06-21T10:08:50.000Z",
-      "readTimeInMinutes": null
+      "readTimeInMinutes": null,
+      "source": "hashnode"
     },
     {
       "title": "Ansible Playbooks Explained: From First YAML File to Managing Real Servers",
       "brief": "Learn what an Ansible playbook is and how it works, from YAML basics to installing Apache, Docker, Git, and Nginx with real playbook examples.",
       "url": "https://saipraneethbhattu.hashnode.dev/ansible-playbooks-explained-from-first-yaml-file-to-managing-real-servers",
       "publishedAt": "2026-06-19T08:53:21.000Z",
-      "readTimeInMinutes": null
+      "readTimeInMinutes": null,
+      "source": "hashnode"
     },
     {
       "title": "You Have 400 Servers to Configure. Now What? Let Ansible Do the Work.",
       "brief": "Ansible architecture, inventory, modules, playbooks, SSH automation, and ad hoc commands with practical DevOps examples.",
       "url": "https://saipraneethbhattu.hashnode.dev/you-have-400-servers-to-configure-now-what-let-ansible-do-the-work",
       "publishedAt": "2026-06-18T09:42:22.000Z",
-      "readTimeInMinutes": null
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
+    {
+      "title": "Building Production-Ready Docker Deployments with Secrets, Stacks, and Distroless Images",
+      "brief": "Docker Secrets, Stack deployments, global services, Portainer, and distroless images for secure production-ready containers.",
+      "url": "https://saipraneethbhattu.hashnode.dev/building-production-ready-docker-deployments-with-secrets-stacks-and-distroless-images",
+      "publishedAt": "2026-06-17T20:45:25.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
+    {
+      "title": "Beyond One Server: Solving Docker Scaling with Swarm and Container Networks",
+      "brief": "Master Docker Hub, Swarm clusters, services, scaling, self-healing, and container networking with practical multi-node DevOps examples.",
+      "url": "https://saipraneethbhattu.hashnode.dev/beyond-one-server-solving-docker-scaling-with-swarm-and-container-networks",
+      "publishedAt": "2026-06-17T19:56:09.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
+    {
+      "title": "Docker Compose in Action: Multi-Container Apps, Nginx Load Balancing & Docker Hub",
+      "brief": "Learn Docker Compose for multi-container applications, implement Nginx load balancing for high availability, and push images to Docker Hub. Complete guide…",
+      "url": "https://saipraneethbhattu.hashnode.dev/docker-compose-in-action-multi-container-apps-nginx-load-balancing-docker-hub",
+      "publishedAt": "2026-06-16T19:09:34.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
+    {
+      "title": "From Monolith to Microservices: Building Multi-Container Apps with Docker",
+      "brief": "Docker Compose simplifies multi-container application management using a single YAML configuration file. Understand services, images, port mapping…",
+      "url": "https://saipraneethbhattu.hashnode.dev/from-monolith-to-microservices-building-multi-container-apps-with-docker",
+      "publishedAt": "2026-06-15T11:48:07.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
+    {
+      "title": "Understanding Dockerfiles: From Basics to Real-World Deployment",
+      "brief": "Dockerfile fundamentals, Docker image creation, container deployment, and real-world workflows with web apps, Tomcat, and Jenkins examples.",
+      "url": "https://saipraneethbhattu.hashnode.dev/understanding-dockerfiles-from-basics-to-real-world-deployment",
+      "publishedAt": "2026-06-14T13:04:13.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
+    {
+      "title": "Docker Container Lifecycle: Every Command You Need to Know",
+      "brief": "Master the Docker container lifecycle with essential commands to create, start, stop, restart, inspect, manage, and remove containers effectively.",
+      "url": "https://saipraneethbhattu.hashnode.dev/docker-container-lifecycle-every-command-you-need-to-know",
+      "publishedAt": "2026-06-14T12:55:43.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
     }
   ]
 }
