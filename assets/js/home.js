@@ -8,7 +8,10 @@
      ====================================================================== */
   var BLOG_HOST = 'saipraneethbhattu.hashnode.dev';   // your Hashnode publication
   var BLOG_URL = 'https://saipraneethbhattu.hashnode.dev/';
-  var POST_COUNT = 3;
+  var BUILDER_URL = 'https://builder.aws.com/community/@bhattu';
+  var SOURCES = { hashnode: 'Hashnode', aws: 'AWS Builder Center' };
+  function srcName(p) { return SOURCES[p.source] || SOURCES.hashnode; }
+  var POST_COUNT = 6;
   var CACHE_KEY = 'sp-posts-v1';
   var CACHE_TTL = 60 * 60 * 1000;                     // 1 hour
   var STATIC_POSTS = 'assets/data/posts.json';        // fallback, refreshed by the GitHub Action
@@ -108,10 +111,12 @@
         var t = document.createElement('time'); t.style.margin = '0'; t.textContent = fmtDate(p.publishedAt);
         if (p.publishedAt) t.setAttribute('datetime', p.publishedAt);
         meta.appendChild(t);
-        if (p.readTimeInMinutes) { var rt = document.createElement('span'); rt.textContent = p.readTimeInMinutes + ' min read'; meta.appendChild(rt); }
+        var rt = document.createElement('span');
+        rt.textContent = (p.source === 'aws' ? 'AWS' : 'Hashnode') + (p.readTimeInMinutes ? ' \u00b7 ' + p.readTimeInMinutes + ' min read' : '');
+        meta.appendChild(rt);
         var h = document.createElement('h3'); h.textContent = p.title;
         var d = document.createElement('p'); d.textContent = p.brief || '';
-        var m = document.createElement('span'); m.className = 'more'; m.textContent = 'Read on Hashnode';
+        var m = document.createElement('span'); m.className = 'more'; m.textContent = 'Read on ' + srcName(p);
         a.appendChild(meta); a.appendChild(h); a.appendChild(d); a.appendChild(m);
         blogGrid.appendChild(a);
       });
@@ -352,9 +357,9 @@
         wait.remove();
         if (!posts.length) { row(['Couldn’t load posts right now. ', lnk('Read the blog on Hashnode', BLOG_URL, true)]); return; }
         posts.forEach(function (p, i) {
-          row([dim(fmtDate(p.publishedAt) + '  '), lnk(p.title, p.url, true)]);
+          row([dim(fmtDate(p.publishedAt) + '  '), lnk(p.title, p.url, true), dim('  [' + (p.source === 'aws' ? 'AWS' : 'Hashnode') + ']')]);
         });
-        row(''); row([dim('All posts: '), lnk('saipraneethbhattu.hashnode.dev', BLOG_URL, true)]);
+        row(''); row([dim('All posts: '), lnk('Hashnode', BLOG_URL, true), dim('  \u00b7  '), lnk('AWS Builder Center', BUILDER_URL, true)]);
       });
     },
     open: function (args) {

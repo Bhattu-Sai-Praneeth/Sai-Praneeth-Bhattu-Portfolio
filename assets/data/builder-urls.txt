@@ -1,0 +1,4 @@
+# AWS Builder Center posts to show on the home page.
+# One URL per line (https://builder.aws.com/content/...). Lines starting with # are ignored.
+# Add a new line whenever you publish; the site updates itself within a minute or two.
+# Your profile: https://builder.aws.com/community/@bhattu

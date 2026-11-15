@@ -162,6 +162,7 @@
     { g: 'Links', t: 'Research paper (PDF)', h: 'ICACIT 2025', k: 'publication lstm', href: base + 'UN-C%20Paper.pdf', ext: true },
     { g: 'Links', t: 'GitHub', h: 'Bhattu-Sai-Praneeth', k: 'code repos', href: 'https://github.com/Bhattu-Sai-Praneeth', ext: true },
     { g: 'Links', t: 'LinkedIn', h: 'saipraneethbhattu', k: 'connect', href: 'https://www.linkedin.com/in/saipraneethbhattu', ext: true },
+    { g: 'Links', t: 'AWS Builder Center', h: 'bhattu', k: 'aws articles posts community', href: 'https://builder.aws.com/community/@bhattu', ext: true },
     { g: 'Links', t: 'Blog', h: 'Hashnode', k: 'articles posts writing', href: 'https://saipraneethbhattu.hashnode.dev/', ext: true },
     { g: 'Actions', t: 'Toggle dark / light theme', h: '', k: 'theme mode dark light', run: toggleTheme },
     { g: 'Actions', t: 'Open the terminal', h: 'home page', k: 'shell cli console', run: openTerminal },
