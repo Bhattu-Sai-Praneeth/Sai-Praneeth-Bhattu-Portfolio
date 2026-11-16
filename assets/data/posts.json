@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-16T15:30:34.351Z",
+  "updated": "2026-11-16T20:50:34.455Z",
   "posts": [
+    {
+      "title": "From One Server to a Resilient AWS Architecture: System Design Fundamentals, Mapped to AWS",
+      "brief": "I turned my system design notes into a complete study guide and mapped every concept to the AWS service that implements it. Everything starts with three…",
+      "url": "https://saipraneethbhattu.hashnode.dev/from-one-server-to-a-resilient-aws-architecture-system-design-fundamentals-mapped-to-aws",
+      "publishedAt": "2026-11-16T20:49:06.000Z",
+      "readTimeInMinutes": null,
+      "source": "hashnode"
+    },
     {
       "title": "Database Design Fundamentals: Data Modeling, SQL vs. NoSQL, and Indexing",
       "brief": "Database design fundamentals, including data modeling, SQL vs. NoSQL, Amazon S3 object storage, and database indexing for scalable applications.",
@@ -86,14 +94,6 @@
       "brief": "Dockerfile fundamentals, Docker image creation, container deployment, and real-world workflows with web apps, Tomcat, and Jenkins examples.",
       "url": "https://saipraneethbhattu.hashnode.dev/understanding-dockerfiles-from-basics-to-real-world-deployment",
       "publishedAt": "2026-06-14T13:04:13.000Z",
-      "readTimeInMinutes": null,
-      "source": "hashnode"
-    },
-    {
-      "title": "Docker Container Lifecycle: Every Command You Need to Know",
-      "brief": "Master the Docker container lifecycle with essential commands to create, start, stop, restart, inspect, manage, and remove containers effectively.",
-      "url": "https://saipraneethbhattu.hashnode.dev/docker-container-lifecycle-every-command-you-need-to-know",
-      "publishedAt": "2026-06-14T12:55:43.000Z",
       "readTimeInMinutes": null,
       "source": "hashnode"
     }
